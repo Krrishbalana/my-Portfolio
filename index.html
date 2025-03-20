@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafted by Krish</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba28115f87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Untitled 1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contant">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi I'm <span> Krish</span> <br>nice to see you here.</h1>
+            </div>
+        </div>
+    </div>
+<!-- -------------------------------------------------ABOUT-------------------------------------------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_1716.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>As a B.Tech Computer Science and Engineering (CSE) student at Chandigarh University, I am passionate about technology and eager to apply my skills in software development, problem-solving, and data analysis. With a strong foundation in programming languages, algorithms, and data structures, I am focused on leveraging my academic knowledge and hands-on project experience to contribute to the tech industry. Motivated, quick to adapt, and always ready to learn, laim to grow as a software engineer and make a meaningful impact in the field.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C++</span><br>Object-Oriented Programming<br>algorithms</li>
+                            <li><span>HTML</span><br>CSS<br>JavaScript</li>
+                            <li><span>problem-solving</span><br>Teamwork<br>Critical thinking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="topic">B.tech CSE</span><br>from <span class="name">Chandigarh University </span><br>CGPA-6.29</li>
+                            <li><span class="topic">12th</span><br>from <span class="name">Emmanuel Mission Senior Secondary School(KOTA)</span><br>Percentage-69%</li>
+                            <li><span class="topic">10th</span><br>from <span class="name">DAV Senior Secondary School(Anupgarh)</span> <br>Percentage-86%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span class="topic">Data Analyst Internship</span><br>Darwin Group of Companies<br>3rd June 2024 to 18th July 2024.</li>
+                            <li><span class="topic">Project</span><br>1.TASK MANAGEMENT WEB APP<br>2.Personal Portfolio Website<br>3.Library managment System</li>
+                            <li><span class="topic">CERTIFICATIONS</span><br>1.MERN full-stack web development course (From 30dayscoding)<br>2.Crash Course on Python (From Coursera by Google)<br>3.Data Analyst Career Path(From Microsoft learning)<br>4.Advance Level Smart Investor course(From NIFM)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- -------------------------------------------------SERVICES------------------------------------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i> 
+                <h2>Web Designing</h2>
+                    <p>I specialize in creating modern, responsive, and user-friendly websites tailored to your needs. Whether you're an individual, startup, or business, I can help you build a strong online presence.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database managment</h2>
+                    <p>I specialize in designing, managing, and optimizing databases to ensure smooth data operations for web and software applications. A well-structured database improves efficiency, security, and scalability, making it essential for any digital platform.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>data analysis</h2>
+                    <p> I offer data analysis solutions to help extract meaningful insights from raw data. By using various analytical tools and techniques, I turn data into actionable decisions for businesses and projects.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------------------------PORTFOLIO------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Screenshot 2025-03-17 at 4.33.10 PM.png" alt="">
+                <div class="layer">
+                    <h3>Data Analyst Career Path(Microsoft)</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="coursera.png" alt="">
+                <div class="layer">
+                    <h3>Crash Course on Python(coursera)</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="NIFM.png" alt="">
+                <div class="layer">
+                    <h3>Advance Level Smart Investor course(NIFM)</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------------------------------------------CONTACT------------------------------------------------- -->
+<div id="contant">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i> krrishbalana@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +91 8690909867</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/krrish-balana-525886235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.instagram.com/krrishbalana?igsh=MTRrbnozeWF2anMzcg%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://snapchat.com/t/wnnsDKjn"><i class="fa-brands fa-square-snapchat"></i></a>
+            </div>
+            <a href="Resume_krish.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2024 Krish. All rights reserved. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = '0';
+        }
+        function closemenu(){
+            sidemenu.style.right = '-200px';
+        }
+
+    </script>
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxcKZJJ--gqKzUu7tLMkO7cGIZSs00Vf0EJPbjKkAbqyf_tMGw6gmYvxNdu8GCTUBg_uQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfuly"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+
+</body>
+</html>
